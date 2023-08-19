@@ -6,6 +6,9 @@ function Header() {
   return (
     <header className="header">
       <div className="container">
+        <div className="title">
+          <h1>Smart Mart</h1>
+        </div>
         <SearchBar />
         <CartButton/>
       </div>

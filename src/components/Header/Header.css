@@ -1,13 +1,38 @@
 .header {
-  background-image: linear-gradient(135deg, #FFC3A0, #FFAFBD);
+  background-color: #abdbe3;
   position: fixed;
   width: 100%;
   z-index: 1;
 }
 
-.header > div {
+.header>div {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px;
+}
+
+.title h1 {
+  padding: 10px;
+  color: #beabe3;
+  font-size: 1.5rem;
+}
+
+.title:hover {
+  cursor: default;
+}
+
+@media screen and (max-width: 770px) {
+  
+  .title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container {
+    flex-wrap: wrap;
+  }
+
 }

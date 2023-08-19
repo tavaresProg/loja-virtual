@@ -17,5 +17,3 @@ function ShoppingCart() {
 }
 
 export default ShoppingCart
-
-//https://www.youtube.com/watch?v=PbnaIlnOsr8&ab_channel=ManualdoDev 29:00

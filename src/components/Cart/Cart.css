@@ -4,7 +4,7 @@
   background-color: white;
   height: 100vh;
   position: fixed;
-  top: 0;
+  top: 45px;
   right: 0;
   padding: 100px 20px 20px;
   display: flex;
@@ -22,7 +22,7 @@
 .cart-resume {
   font-size: 1.8rem;
   font-weight: 500;
-  padding: 35px 0 15px;
+  padding: 35px 0 35px;
   border-top: 1px solid #ddd;
 }
 
@@ -32,4 +32,20 @@
 
 .cart--active {
   transform: translate(0, 0);
+}
+
+.buy {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  border: none;
+  background-color: #ABDBE3;
+  transition: background-color 0.3s ease;
+}
+
+.buy:hover {
+  cursor: pointer;
+  background-color: #8ec7d1;
 }
