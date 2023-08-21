@@ -48,10 +48,11 @@
 
 @media screen and (max-width: 310px) {
   .search__bar {
-    max-width: 81%;
+    max-width: 220px;
   }
 
   .search__button {
     font-size: .8rem;
   }
+
 }
