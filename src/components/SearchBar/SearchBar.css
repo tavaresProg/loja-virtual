@@ -41,5 +41,17 @@
 @media screen and (max-width: 538px) {
   .search__bar {
     max-width: 82%;
+    gap: 5px;
+    padding-right: 5px;
+  }
+}
+
+@media screen and (max-width: 310px) {
+  .search__bar {
+    max-width: 81%;
+  }
+
+  .search__button {
+    font-size: .8rem;
   }
 }
