@@ -1,5 +1,5 @@
 .header {
-  background-color: #abdbe3;
+  background-color:  #FEE715;
   position: fixed;
   width: 100%;
   z-index: 1;
@@ -14,7 +14,7 @@
 
 .title h1 {
   padding: 10px;
-  color: #beabe3;
+  color: #101820;
   font-size: 1.5rem;
 }
 

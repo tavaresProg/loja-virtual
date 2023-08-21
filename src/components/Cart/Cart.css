@@ -37,11 +37,12 @@
 .buy {
   display: block;
   margin: 0 auto;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   border-radius: 10px;
   padding: 10px;
   border: none;
-  background-color: #ABDBE3;
+  background-color: #101820;
+  color: #fff;
   transition: background-color 0.3s ease;
 }
 

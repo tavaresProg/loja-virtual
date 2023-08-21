@@ -11,19 +11,16 @@ function ProductCard({ data }) {
 
   const { cartItems, setCartItems } = useContext(AppContext);
 
-  // const handleAddCart = () => setCartItems([...cartItems, data]);
 
   const handleAddCart = () => {
     const existingItem = cartItems.find((item) => item.id === data.id);
 
     if (existingItem) {
-      // Se o item com o mesmo ID já existir, atualize a quantidade
       const updatedItems = cartItems.map((item) =>
         item.id === data.id ? { ...item, quantity: item.quantity + 1 } : item
       );
       setCartItems(updatedItems);
     } else {
-      // Se o item com o mesmo ID não existir, adicione um novo item ao carrinho
       setCartItems([...cartItems, { ...data, quantity: 1 }]);
     }
   };
